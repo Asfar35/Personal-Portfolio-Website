@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="./Assets/img0.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='#'><img src="./Assets/logo.png" /></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="#section0">Home</a></li>
+                    <li><a href="#section1">About</a></li>
+                    <li><a href="#section2">Skills</a></li>
+                    <li><a href="#section3">Education</a></li>
+                    <li><a href="#section4">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+        <!--0th section(Hero section)  -->
+        <div id="section0" class="hero fade-in-right">
+            <div class="first">
+                <h1>Hi There,</br>I'm Sk <span>Asfar</span></h1>
+                <h2>i am into</h2>
+                <div class="socials">
+                    <ul class="social-icons">
+                        <li><a href="https://www.linkedin.com/in/sk-asfar-ali-1b0a10243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Asfar35" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/skasfarali5" target="_blank"><i
+                                    class="fas fa-x x-font">x</i></a></li>
+                        <li><a href="https://www.instagram.com/s_k_a_s_f_a_r_a_l_i/" target="_blank"><i
+                                    class="fab fa-instagram" target="_blank"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="second">
+                <img src="./Assets/img0.png" alt="Avater Image">
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- First Section (About Me) -->
+        <section id="section1" class="section fade-in-left">
+            <h2><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+            <div class="content">
+                <img class="about-img" src="./Assets/myimg.jpg" alt="MY Image">
+                <div class="box0">
+                    <div class="para">
+                        <p>I am a Frontend developer based in Kolkata, India. I am a CSE undergraduate from SVU. I am
+                            very
+                            passionate about improving my coding skills & developing, applications & websites. Working
+                            for
+                            myself to improve my skills. Love to solve Puzzle.</p>
+                    </div>
+
+                    <div class="resumebtn">
+                        <button><a
+                                href="https://drive.google.com/file/d/1st0S6KdhQrDfkJ-98fiuiJw3jXeHke_b/view?usp=drivesdk"
+                                target="_blank">Resume
+                                &gt;</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Second Section(Skill Section) -->
+        <section id="section2" class="section fade-in-left">
+            <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+            <div class="container">
+                <div class="skill-div">
+                    <img src="./Assets/cpp.svg" alt="Cpp image">
+                    <h3>C++ DSA</h3>
+                    <p>
+                        Powerful, efficient coding language for software
+                        development.
+                    </p>
+                </div>
+                <div class="skill-div">
+                    <img src="./Assets/python-5.svg" alt="Python image">
+                    <h3>Python</h3>
+                    <p>
+                        Versatile language for problem-solving and
+                        application development.
+                    </p>
+                </div>
+                <div class="skill-div">
+                    <img src="./Assets/java.svg" alt="java image">
+                    <h3>Java OOPs</h3>
+                    <p>
+                        Powerful, efficient coding language for software
+                        development.
+                    </p>
+                </div>
+                <div class="skill-div">
+                    <img src="./Assets/html5.svg" alt="html image">
+                    <h3>HTML</h3>
+                    <p>
+                        Web content structure with essential markup
+                        language.
+                    </p>
+                </div>
+                <div class="skill-div">
+                    <img src="./Assets/css-3.svg" alt="css image">
+                    <h3>CSS</h3>
+                    <p>
+                        Styling web elements for visually appealing
+                        websites.
+                </div>
+                <div class="skill-div">
+                    <img src="./Assets/js.svg" alt="js image">
+                    <h3>JS</h3>
+                    <p>
+                        Interactive web elements for appealing
+                        websites.
+                </div>
+            </div>
+
+        </section>
+        <hr>
+
+        <!-- Third Section (Education section) -->
+        <section id="section3" class="section fade-in-right">
+            <h2><i class="fas fa-graduation-cap"></i> My <span>Education</span></h2>
+
+            <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/svu.jpeg" alt="college image">
+                    </div>
+                    <div class="edu-content">
+                        <h3>Computer Science and Engineering</h3>
+                        <p>Swami Vivekananda University | SVU</p>
+                        <h4>2022-2026 | Pursuing</h4>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/school.webp" alt="School image">
+                    </div>
+                    <div class="edu-content">
+                        <div>
+                            <h3>HS Science | PCMB</h3>
+                        </div>
+                        <div>
+                            <p>Gopalpur Muktakeshi Vidalaya| WBCHSE</p>
+                        </div>
+                        <div>
+                            <h4>2019-2021 | Completed</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+
+        <!-- section 4(Project Section) -->
+        <section id="section4" class="section fade-in-left">
+            <h2><i class="fas fa-laptop-code"></i> Project</h2>
+            <div class="project">
+                <div class="project-div">
+                    <img src="./Assets/netflix.jpg" alt="netflix image">
+                    <h3>netflix UI Clone</h3>
+                    <button><a href="https://github.com/Asfar35/Netflix-UI-Clone-Project" target="_blank">Project
+                            Repo</a></button>
+                </div>
+
+                <div class="project-div">
+                    <img src="./Assets/DSAblog.jpg" alt="DSA Blog image">
+                    <h3>DSA Blog(C++)</h3>
+                    <button><a
+                            href="https://github.com/Asfar35/Web-Development-Blockchain-Development-NEXUS-/tree/main/HTML/Project/Project03(DSA%20Blog)"
+                            target="_blank">Project Repo</a></button>
+                </div>
+
+                <div class="project-div">
+                    <img src="./Assets/bookMyShow.jpg" alt="BookMyShow image">
+                    <h3>BookMyShow UI Clone</h3>
+                    <button><a
+                            href="https://github.com/Asfar35/Web-Development-Blockchain-Development-NEXUS-/tree/main/CSS/Project/Project04(BookMyShow)"
+                            target="_blank">Project Repo</a></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer with Contact Form -->
+    <footer id="contact">
+        <h2><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p>&copy; All rights reserved by SK</p>
+    </footer>
+</body>
+
+</html>
