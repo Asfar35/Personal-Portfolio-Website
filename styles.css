@@ -590,6 +590,7 @@ footer p {
     /* Education Section */
     .box{
         flex-direction: column;
+        width: 80vw;
     }
     /* Content Section */
     .content {
